@@ -1,14 +1,13 @@
 <?php
-    SESSION_START();
+   	SESSION_START();
     include_once("conexao.php");
-    include_once("crud.php");
 
     $nome     = $_POST['nome'];
     $email    = $_POST['email'];
     $telefone = $_POST['telefone'];
     $assunto  = $_POST['assunto'];
     $mensagem = $_POST['mensagem'];
-    $sts = 0;
+    $sts = 1;
 
     //echo $nome,$email,$telefone,$assunto,$mensagem;
     if(!(empty($nome) && empty($email) && empty($telefone) && empty($assunto) && empty($mensagem))){

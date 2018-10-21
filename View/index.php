@@ -34,7 +34,7 @@
 							</li>
 						</ul>
 						<form class="form-inline mt-2 mt-md-12">
-							<button class="btn btn-light" type="submit">Administrador</button>
+							<a href="login.php" class="btn btn-light">Administrador</a>
 						</form>
 					</div>
 				</div>
@@ -296,7 +296,7 @@
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
 					</div>
-				</div>
-		</div>
+			</div>
+	    </div>
 	</body>
 </html>
